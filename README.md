@@ -85,11 +85,11 @@ You need to download the [Cityscapes](https://www.cityscapes-dataset.com/), and 
 
 - qualitative segmentation examples on Cityscapes Dataset:
 
-<p align="center"><img width="100%" src="./image/cityscape_deom.png" /></p>
+<p align="center"><img width="100%" src="./demo_images/cityscape_deom.png" /></p>
 
 - qualitative segmentation examples on Camvid Dataset:
 
-<p align="center"><img width="100%" src="./image/camvid_deom.png" /></p>
+<p align="center"><img width="100%" src="./demo_images/camvid_deom.png" /></p>
 
 ### Citation
 
