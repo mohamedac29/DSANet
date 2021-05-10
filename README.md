@@ -86,18 +86,12 @@ You need to download the [Cityscapes](https://www.cityscapes-dataset.com/), and 
 - qualitative segmentation examples on Cityscapes Dataset:
 
 <<<<<<< HEAD
+
 <p align="center"><img width="75%" src="./demo_images/cityscape_deom.png" /></p>
 
 - qualitative segmentation examples on Camvid Dataset:
 
 <p align="center"><img width="75%" src="./demo_images/camvid_deom.png" /></p>
-=======
-<p align="center"><img width="100%" src="./demo_images/cityscape_deom.png" /></p>
-
-- qualitative segmentation examples on Camvid Dataset:
-
-<p align="center"><img width="100%" src="./demo_images/camvid_deom.png" /></p>
->>>>>>> 2efef7a725a3a89a3791e1b8df19538eb149e73a
 
 ### Citation
 
@@ -117,5 +111,6 @@ Please consider citing the [DSANet](https://www.sciencedirect.com/science/articl
 ### Acknowledgment
 
 This code is heavily borrowed from the following repositories:
+
 [DABNet](https://github.com/Reagan1311/DABNet)
 [CGNet](https://github.com/wutianyiRosun/CGNet)
