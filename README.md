@@ -110,7 +110,7 @@ Please consider citing the [DSANet](https://www.sciencedirect.com/science/articl
 
 ### Acknowledgment
 
-This code is heavily borrowed from the following repositories:
+## Thanks to the Third Party Libs
 
 [DABNet](https://github.com/Reagan1311/DABNet)
 
