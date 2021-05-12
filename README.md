@@ -107,10 +107,12 @@ Please consider citing the [DSANet](https://www.sciencedirect.com/science/articl
   publisher={Elsevier}
 }
 ```
+## License
 
+This code is released under the MIT License. See [LICENSE](LICENSE) for additional details.
 ### Acknowledgment
 
-This code is heavily borrowed from the following repositories:
+## Thanks to the Third Party Libs
 
 [DABNet](https://github.com/Reagan1311/DABNet)
 
