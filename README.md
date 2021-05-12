@@ -107,7 +107,9 @@ Please consider citing the [DSANet](https://www.sciencedirect.com/science/articl
   publisher={Elsevier}
 }
 ```
+## License
 
+This code is released under the MIT License. See [LICENSE](LICENSE) for additional details.
 ### Acknowledgment
 
 ## Thanks to the Third Party Libs
