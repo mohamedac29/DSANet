@@ -14,7 +14,6 @@ which follows a two-branch strategy to tackle the problem of real-time semantic 
 
 <p align="center"><img width="80%" src="./demo_images/DSANet_architecture.png" /></p>
 
-##<p align="center"><img width="75%" src="./demo_images/attention.png" /></p>
 
 ### Installation
 
