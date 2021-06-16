@@ -14,7 +14,7 @@ which follows a two-branch strategy to tackle the problem of real-time semantic 
 
 <p align="center"><img width="80%" src="./demo_images/DSANet_architecture.png" /></p>
 
-<p align="center"><img width="75%" src="./demo_images/attention.png" /></p>
+<p align="center"><img width="75%" src="./demo_images/Dilated_spatial_attention.png" /></p>
 
 ### Installation
 
@@ -107,9 +107,11 @@ Please consider citing the [DSANet](https://www.sciencedirect.com/science/articl
   publisher={Elsevier}
 }
 ```
+
 ## License
 
 This code is released under the MIT License. See [LICENSE](LICENSE) for additional details.
+
 ### Acknowledgment
 
 ## Thanks to the Third Party Libs
