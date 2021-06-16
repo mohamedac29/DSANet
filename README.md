@@ -14,6 +14,8 @@ which follows a two-branch strategy to tackle the problem of real-time semantic 
 
 <p align="center"><img width="80%" src="./demo_images/DSANet_architecture.png" /></p>
 
+                Dialted Spatial Attention Module
+
 <p align="center"><img width="75%" src="./demo_images/Dilated_spatial_attention.png" /></p>
 
 ### Installation
@@ -78,20 +80,20 @@ You need to download the [Cityscapes](https://www.cityscapes-dataset.com/), and 
 
 ### Results
 
-- quantitative results:
+- Quantitative results:
 
 |     Dataset      |  Pretrained  | Train type |    mIoU    |  FPS  |                                                                    model                                                                     |
 | :--------------: | :----------: | :--------: | :--------: | :---: | :------------------------------------------------------------------------------------------------------------------------------------------: |
 | Cityscapes(Fine) | from scratch |  trainval  | **71.39%** | 34.08 | [Detailed result](https://www.cityscapes-dataset.com/anonymous-results/?id=a18cd1a0eae4d21c62ac6868b6111d1e5e0d97e0d38e74fce1e64c7379692b30) |
 |      CamVid      | from scratch |  trainval  | **69.9%**  | 75.3  |                                                                                                                                              |
 
-- qualitative segmentation examples on Cityscapes Dataset:
+- Qualitative segmentation examples on Cityscapes Dataset:
 
 <p align="center"><img width="75%" src="./demo_images/cityscape_deom.png" /></p>
 
-- qualitative segmentation examples on Camvid Dataset:
+- Qualitative segmentation examples on Camvid Dataset:
 
-<p align="center"><img width="75%" src="./demo_images/camvid_deom.png" /></p>
+<p align="center"><img width="90%" src="./demo_images/camvid_deom.png" /></p>
 
 ### Citation
 
