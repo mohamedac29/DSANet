@@ -12,7 +12,9 @@ inefficient for realtime applications. On the other hand, many works compromise 
 obtain real-time inference speed which is critical for developing a light network model with high segmentation accuracy. In this paper, we present a computationally efficient network named DSANet,
 which follows a two-branch strategy to tackle the problem of real-time semantic segmentation in urban scenes. We first design a Semantic Encoding Branch, which employs channel split and shuffle to reduce the computation and maintain higher segmentation accuracy. Also, we propose a dual attention module consisting of dilated spatial attention and channel attention to make full use of the multi-level feature maps simultaneously, which helps predict the pixel-wise labels in each stage. Meanwhile, Spatial Encoding Network is used to enhance semantic information and preserve the spatial details. To better combine context information and spatial information, we introduce a Simple Feature Fusion Module. We evaluated our model with state-of-the-art semantic image semantic segmentation methods using two challenging datasets. The proposed method achieves an accuracy of 69.9% mean IoU and 71.3% mean IoU at speed of 75.3 fps and 34.08 fps on CamVid and Cityscapes test datasets respectively.
 
-<p align="center"><img width="80%" src="./demo_images/DSANet_architecture.png" /></p>
+                The detailed architecture of DSANe
+
+<p align="center"><img width="90%" src="./demo_images/DSANet_architecture.png" /></p>
 
                 Dialted Spatial Attention Module
 
