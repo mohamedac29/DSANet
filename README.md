@@ -98,13 +98,14 @@ python test.py --dataset camvid --model DSANet --checkpoint ./checkpoint/camvid/
 ```
 python test.py --dataset cityscapes --model DSANet --checkpoint ./checkpoint/camvid/DSANetbs8gpu1_trainval/model_150.pth --gpus 0
 ```
-### Results
-
 ### Inference Speed
 - Inference speed with input resolution 512x1024
 ```
 python eval_fps.py 512,1024
 ```
+
+### Results
+
 - Quantitative results:
 
 |     Dataset      |  Pretrained  | Train type |    mIoU    |  FPS  |                                                                    model                                                                     |
