@@ -79,9 +79,32 @@ You need to download the [Cityscapes](https://www.cityscapes-dataset.com/), and 
 └── valannot
 
 ```
+### Training 
 
+- Training on Camvid datsaset
+```
+python train.py --dataset camvid --model DSANet --max_epochs 1000 --train_type trainval --lr 4e-3 --batch_size 8
+```
+- Training on Camvid datsaset - train_type [trainval,trainval]
+```
+python train.py --dataset cityscapes --model DSANet --max_epochs 1000 --train_type trainval --lr 4e-3 --batch_size 8
+```
+### Testing 
+- Testing on Camvid datsaset
+```
+python test.py --dataset camvid --model DSANet --checkpoint ./checkpoint/camvid/DSANetbs8gpu1_trainval/model_150.pth --gpus 0
+```
+- Testing on Cityscapes datsaset
+```
+python test.py --dataset cityscapes --model DSANet --checkpoint ./checkpoint/camvid/DSANetbs8gpu1_trainval/model_150.pth --gpus 0
+```
 ### Results
 
+### Inference Speed
+- Inference speed with input resolution 512x1024
+```
+python eval_fps.py 512,1024
+```
 - Quantitative results:
 
 |     Dataset      |  Pretrained  | Train type |    mIoU    |  FPS  |                                                                    model                                                                     |
